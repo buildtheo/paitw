@@ -87,7 +87,7 @@ I want an agent that can recommend solutions for all incidents. This agent ident
 ```
 
 * **Execution mode:** Supervised
-* **Display output:** Yes
+* **Display output:** No
 * Click **Add**
 
 **4b. Create the “Resolve and fetch similar knowledge articles” tool.** Select **Add tool > Script > A new script** and fill in:
@@ -133,7 +133,7 @@ I want an agent that can recommend solutions for all incidents. This agent ident
 ```
 
 * **Execution mode:** Supervised
-* **Display output:** Yes
+* **Display output:** No
 * Click **Add**
 
 5. Create the next tool by selecting **Add tool**:
