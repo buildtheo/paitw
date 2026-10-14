@@ -20,7 +20,7 @@ I want an agent that can recommend solutions for all incidents. This agent ident
 4. Click on “**Recommend Tools**”. A list of Suggested tools will appear.
 
 {% hint style="warning" %}
-**Do NOT click “+” on the two Script tools** in the list ("ITSM incident resolution plan investigation AI agent - Fetch all data" and "Resolve and fetch similar knowledge articles"). On the lab image they create Global-scope copies that fail when the agent runs ("Sorry, there was a problem on my side"), and the agent then asks you for incident details instead of fetching them. Build them yourself in steps 4a and 4b below.
+**Do not click “+” on the two Script tools** in the list. They fail when the agent runs. Build them in steps 4a and 4b instead.
 {% endhint %}
 
 If a **Flow action** such as “Collect relevant incident details for a problem” is suggested, you may click “**+**” on it. Then hit '**Save and Continue'**
