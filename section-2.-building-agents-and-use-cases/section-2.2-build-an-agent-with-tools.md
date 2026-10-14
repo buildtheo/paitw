@@ -17,13 +17,7 @@ I want an agent that can recommend solutions for all incidents. This agent ident
 * Now scroll through the results, and see how Now Assist has filled in the AI Agent role, list of steps, and Agent name.
 * You will see a “**Possible duplications found**” dialog pop up, click “**Ignore and continue**”
 
-4. Click on “**Recommend Tools**”. A list of Suggested tools will appear.
-
-{% hint style="warning" %}
-**Do not click “+” on the two Script tools** in the list. They fail when the agent runs. Build them in steps 4a and 4b instead.
-{% endhint %}
-
-If a **Flow action** such as “Collect relevant incident details for a problem” is suggested, you may click “**+**” on it. Then hit '**Save and Continue'**
+4. Click **Add tool** to create the tools below.
 
 **4a. Create the “Fetch all data” tool.** Select **Add tool > Script > A new script** and fill in:
 
@@ -142,17 +136,7 @@ If a **Flow action** such as “Collect relevant incident details for a problem�
 * **Display output:** Yes
 * Click **Add**
 
-{% hint style="info" %}
-If the agent later asks you for the incident number, the tool's **Input parameters** table is empty. Open the tool, add `incident_number`, and save.
-{% endhint %}
-
-We still need two more tools, so let’s create the following tools by selecting the **Add tool** option from the AI agent definition:
-
 5. Create the next tool by selecting **Add tool**:
-
-{% hint style="warning" %}
-The **Add Worknote** flow action cannot be used here. Its `Task` input is a reference type, and AI Agent Studio shows "There are inputs in this flow action that are not supported. Choose a different one." Use a Script tool instead, as below.
-{% endhint %}
 
 * Select **Script**, then **A new script**
   * **Name:** “Update additional comments in incident record”
