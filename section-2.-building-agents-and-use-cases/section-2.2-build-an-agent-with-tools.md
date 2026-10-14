@@ -15,6 +15,7 @@ I want an agent that can recommend solutions for all incidents. This agent ident
 <figure><img src="../.gitbook/assets/Unknown image (114)" alt=""><figcaption></figcaption></figure>
 
 * Now scroll through the results, and see how Now Assist has filled in the AI Agent role, list of steps, and Agent name.
+* Set the agent **Name** to exactly “**Incident Solution Agent**”.
 * You will see a “**Possible duplications found**” dialog pop up, click “**Ignore and continue**”
 
 4. Click **Add tool** to create the tools below.

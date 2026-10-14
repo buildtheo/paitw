@@ -11,11 +11,11 @@ This workflow will be the “Incident Solution Agent workflow” . This use case
 {% endcode %}
 
 4. Click on “**Generate**.” Scroll down and see how it's filled in the fields for you!
-5. Click **Recommend AI Agernts** button, then find the AI Agent you created previously
+5. Click the **Recommend AI Agents** button, then find the agent named exactly **Incident Solution Agent** (the one you built in Section 2.2)
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-6. Click “**+**” button under **Add AI agent** then click **Save and Continue**
+6. Click “**+**” next to **Incident Solution Agent** only. Do not add any other agent. Then click **Save and Continue**
 7. You will get prompted for possible duplicates. Click “**Ignore and continue**. “In Define user access, click “Save and continue” on the following two steps
    1. Select “**Any Authenticated user**’ from the User access drop-down
    2. Select the **Dynamic user**, search and select ‘**itil**’ and “**admin**” from the approved roles
