@@ -29,12 +29,8 @@ This workflow will be the “Incident Solution Agent workflow” . This use case
    7. **Channel**: “Now Assist panel”
    8. **Show alert to users**: “no”
 9. Click “Save and continue”
-10. Next, in the **Select channels and status**, you can enable Agents to communicate via Now Assist for Virtual Agent (via the Employee Center or Service Portal), but for this example, we will NOT change the selection.
-11. In the Communicate, this AI agent’s process to users, click on “**Generate messages**” letting Now assist create them for you, when the agent is ‘thinking’ and when it has completed its task
-12. Click **Add**
-13. Click **Save and Continue**
-14. On the **Select channel and status page**, make sure the Now Assist Panel Display toggle is set to **On**
-15. Click **Save and Test**
+10. On the **Select channel and status page**, make sure the Now Assist Panel Display toggle is set to **On**
+11. Click **Save and Test**
 
 Now let’s test your new workflow!
 
