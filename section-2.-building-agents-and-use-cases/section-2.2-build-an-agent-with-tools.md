@@ -27,12 +27,30 @@ We are missing one tool, so let’s create the following tools by selecting the 
 
 5. Create the next tool by selecting **Add tool**:
 
-* Select **Flow Action**
-  * Select “**Add Worknote**’
+{% hint style="warning" %}
+The **Add Worknote** flow action cannot be used here. Its `Task` input is a reference type, and AI Agent Studio shows "There are inputs in this flow action that are not supported. Choose a different one." Use a Script tool instead, as below.
+{% endhint %}
+
+* Select **Script**, then **A new script**
   * **Name:** “Update additional comments in incident record”
   * **Description**: “Update the additional comments field in the incident record belonging to the incident that triggered this AI agent”
   * **Execution mode:** Autonomous
   * **Display output**: Yes
+  * **Inputs** (add both and mark them required, before saving):
+    * `incident_number` (string)
+    * `work_note` (string)
+  * **Script:**
+
+```javascript
+(function(inputs) {
+    var gr = new GlideRecord('incident');
+    if (!inputs.incident_number || !gr.get('number', inputs.incident_number))
+        return 'Incident not found: ' + inputs.incident_number;
+    gr.work_notes = inputs.work_note;
+    gr.update();
+    return 'Work note added to ' + inputs.incident_number;
+})(inputs);
+```
 
 Under advance
 
