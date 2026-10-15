@@ -77,12 +77,9 @@ The **Tasks** section is where you configure how the AI Specialist makes decisio
 
 1. Select **Investigate and resolve** from the task list.
 2. In the Settings panel, review and configure:
-   * **Knowledge sources:** Confirm the following AI Search Profiles are listed:
+   * **Knowledge sources:** Confirm the following AI Search Profile is listed:
      * `ZTSD Search Profile`
-     * `Known Error Matcher`
-   *   Select **+ Add** to attach additional search profiles if needed.
-
-       > **Note:** If `Known Error Matcher` isn't listed, select **+ Add** and add it manually before continuing.
+   * Select **+ Add** to attach additional search profiles if needed. Do not add `Known Error Matcher` — it has no search sources configured on these lab instances and stalls the research step.
 3.  Set the **Research depth** based on your preference:
 
     * **Low** – faster results, less detail

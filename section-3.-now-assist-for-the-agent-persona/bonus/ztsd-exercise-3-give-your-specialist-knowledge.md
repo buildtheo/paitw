@@ -72,6 +72,11 @@ description: Blast from the past
 > **Still locked out?**
 >
 > If you do not receive the reset email within 5 minutes, check your spam or junk folder. If the issue persists, contact the IT Service Desk and request a manual password reset. Please have your employee ID ready for verification.
+>
+> **Applies to:** Self-service password reset through the ServiceNow Employee Center, for employees with an active corporate account and a registered corporate email address. Applies to company-managed and personal devices alike.
+>
+> **Prerequisites:** A working corporate email address on file, and access to that mailbox to receive the reset link.
+
 
 ***
 
@@ -107,6 +112,11 @@ description: Blast from the past
 > **Cannot send or receive attachments:**
 >
 > Attachments are limited to 25 MB per message. For larger files, upload the file to OneDrive or SharePoint and share a link instead. If you are unable to receive attachments, contact your IT administrator to verify that attachment policies are not blocking the file type.
+>
+> **Applies to:** Microsoft Outlook (desktop, Microsoft 365 / Office 16) on company-managed Windows laptops. Mac and Outlook on the web are not covered.
+>
+> **Prerequisites:** Outlook and Windows installed and signed in with a corporate account; local permission to open Outlook in Safe Mode and manage add-ins; free disk space to compact the data file.
+
 
 ***
 
@@ -143,6 +153,11 @@ description: Blast from the past
 > **Still unable to connect?**
 >
 > If none of the above steps resolve the issue, open a new incident with the IT Service Desk. Include the following details: your device name, operating system version, the network you are connected to, and any error messages displayed by Zscaler.
+>
+> **Applies to:** Zscaler Private Access (ZPA) through Zscaler Client Connector 4.x on company-managed Windows and Mac laptops, for employees working remotely.
+>
+> **Prerequisites:** Zscaler Client Connector installed (pre-installed on managed laptops), a corporate email and password with multi-factor authentication enrolled, and a working internet connection.
+
 
 ***
 
@@ -220,6 +235,8 @@ Now create an incident that the AI Specialist can resolve using your new article
     > 🎉 **You did it!** You've just closed the loop on Zero Touch Support. The knowledge you create directly powers the AI Specialist's ability to resolve incidents. Better knowledge articles = higher deflection rates = fewer tickets for your human agents.
 
     > ⚠️ **If the AI Specialist escalates to a human instead of citing your article**, the most likely cause isn't anything you did wrong — it's that AI Search hasn't re-indexed the Knowledge Base since you published. A brand-new article isn't searchable until the `kb_knowledge` AI Search datasource runs its next indexing pass, and on a fresh lab instance that can be a while after the article goes live. Ask your instructor to trigger a reindex of the Knowledge Base search source, then create a fresh incident (an already-processed one won't reprocess) and try again.
+
+    > ⚠️ **Still not cited after a reindex?** Two other causes for instructors to check: (1) the AI Specialist's agent user (`l1.servicedesk`) must be able to read the IT Knowledge Base — if the KB's *Can read* user criteria don't include it, the article is indexed but never returned to the specialist (the lab setup script `ztsd_seed_kbs.js` adds the **Any user for KB** criteria); (2) the article should say what environment it applies to and what it needs (the **Applies to** and **Prerequisites** lines in the sample articles). Without them the specialist cannot confirm the fix fits the incident and may decline to propose it.
 
 ***
 
