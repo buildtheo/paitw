@@ -10,7 +10,7 @@ In this part of the lab, you will use Now Assist for ITOM as an operator to gain
 
 2. Click on the **Analyze button**. It may take a few moments to return, as Now Assist for ITOM is analyzing the alert group.
 
-<figure><img src="../.gitbook/assets/2026-08-10 14.09.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5.2-analyze-button.png" alt=""><figcaption>Confirmed live as Amelia Bryant. Select the group alert, then click Analyze in the Insights tab.</figcaption></figure>
 
 3. Toggle through the tabs 'alerts', "Probable root case, and 'link view'
    1.  See how the full power of one platform, one data model is brought together for the operator!&#x20;
