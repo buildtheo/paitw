@@ -101,7 +101,7 @@ g.	**Field values**:
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><em><strong>Field</strong></em></td><td valign="top"><em><strong>Value</strong></em></td></tr><tr><td valign="top"><em>Assignment group</em></td><td valign="top"><em>{{assignment_group}}</em></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Do not type {{assignment_group}} into the **Value** field; it will not resolve. Select the **assignment_group** input with the input picker (the icon at the right of the Value field).
+Do not type {{assignment_group}} into the **Value** field; it will not resolve. Instead, click the small button next to the **Value** field. It opens a list of the tool's inputs; select **assignment_group** from that list.
 {% endhint %}
 
 h.	**Execution mode**: Autonomous\
