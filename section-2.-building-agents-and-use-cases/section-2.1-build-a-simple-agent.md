@@ -46,6 +46,12 @@ Note: In a non-lab environment and with MCP, you could expose agents to third pa
 
 **If the proper Recommended tool does NOT show, Select Add tool>Script and chose existing tool**&#x20;
 
+{% hint style="info" %}
+If Now Assist answers that the description and instructions are empty, go back and confirm that both fields on the previous page contain your text and that you selected **Save and continue**. Wait a few seconds, then select **Recommend Tools** again. If the list is still empty, add the **Greetings** tool manually as shown above.
+
+If your test chat shows raw text such as `{"greeting": "Good evening", ...}`, add this line to the agent's instructions: *When you use the Greetings tool, say only the greeting value as plain text. Never show raw tool output.*
+{% endhint %}
+
 ![](<../.gitbook/assets/2026-09-01 09.41.37.png>)![](<../.gitbook/assets/2026-09-01 09.43.24.png>)
 
 8. In Define security controls, click “**Save and continue**” on the following two steps

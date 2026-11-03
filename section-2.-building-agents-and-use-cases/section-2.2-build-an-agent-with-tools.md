@@ -193,7 +193,7 @@ Under advance
 
     **Now let’s test the agent!**
 
-* In the Task box, enter “**Help me resolve INC0010248**” and click Continue to Test Chat response.
+* In the Task box, enter “**Help me resolve INC0010248**” and click Continue to Test Chat response. (INC0010248 is the incident “Order stuck in load status”. If your instance shows two incidents with this number, use that one.)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

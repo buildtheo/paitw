@@ -48,7 +48,7 @@ Any incident that has a description that contains Versioning errors
 
 <figure><img src="../.gitbook/assets/2026-08-10 10.20.59.png" alt=""><figcaption></figcaption></figure>
 
-7. Let's go BACK to the In progress donut, and select and open **INC0010005 "Blocked: Password reset portal....**
+7. Let's go BACK to the In progress donut, and select and open **INC0010005 "Blocked: Password reset portal....** (if your instance shows two incidents numbered INC0010005, open the one titled "Blocked: Password reset portal…")
 
 <figure><img src="../.gitbook/assets/2026-08-10 10.24.34.png" alt=""><figcaption></figcaption></figure>
 

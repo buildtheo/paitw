@@ -7,7 +7,11 @@ description: >-
 
 # Section 8.1 Now Assist Skill Kit
 
-Creation and management of custom skills is done through Now Assist Skill Kit landing page. Before you start ensure that you are in the IT Service Management AI agent collection application scope.
+Creation and management of custom skills is done through Now Assist Skill Kit landing page. 
+
+{% hint style="warning" %}
+**Before you start:** select the **IT Service Management AI agent collection** application scope. Click the Application Scope icon at the top of the page, set the scope, then open the Skill Kit. Skills created in the Global scope will not match the rest of this section.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,7 +29,7 @@ You might also want to go to the incident (incident.list) table to create an inc
 * Default provider API: Chat Completions\
   \
   Scroll down and add the itil role in the section “Apply role restrictions to skill”.\
-  Then select Skip to Prompt editor.\
+  Leave every other section on the page at its default. Do not fill in the remaining sections. Scroll to the bottom of the page and select **Skip to Prompt editor**.\
   \\
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>

@@ -7,7 +7,7 @@ description: >-
 
 # Section 2.4 - OPTIONAL- Build an AI Agent that checks outages in similar incidents
 
-First, let’s create an outage in an incident. Find the incident pre-seeded for this lab by its short description — **"Need help with SSO configuration for third-party tool"** (`INC0010248` on this instance, though the exact number may differ on yours — note that on some instances this number is shared by more than one incident, so match by short description, not just the number).
+First, let’s create an outage in an incident. Find the incident pre-seeded for this lab by its short description — **"Order stuck in load status"** (`INC0010248` on this instance, though the exact number may differ on yours — note that on some instances this number is shared by more than one incident, so match by short description, not just the number).
 
 1. Open the incidents table (**All > Incident > All)**
 2. Search for the incident by its short description above and open it

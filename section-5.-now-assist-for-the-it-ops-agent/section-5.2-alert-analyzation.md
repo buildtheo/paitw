@@ -4,7 +4,7 @@ Now Assist for ITOM can analyze a group of alerts and consider multiple factors,
 
 In this part of the lab, you will use Now Assist for ITOM as an operator to gain hands-on experience with what an operator would see when analyzing individual alerts and groups of alerts.
 
-1. Find the alert with the number **Alert0010013**. **Click anywhere in the alert's Description**. It opens the details panel.
+1. In the alert list from 4.1 (**List** > **Alerts** > **All Alerts**, widest date range, Closed included), find the group alert whose description starts with **Group of alerts, search-semantic UNAVAILABLE**. Alert numbers differ between lab instances, so search by description, not number. **Click anywhere in the alert's Description**. It opens the details panel.
 
 <figure><img src="../.gitbook/assets/2026-08-10 14.08.09 (1).png" alt=""><figcaption></figcaption></figure>
 

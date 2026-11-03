@@ -34,7 +34,7 @@ This workflow will be the “Incident Solution Agent workflow” . This use case
 
 Now let’s test your new workflow!
 
-Let’s continue to use the same incident record as we’ve used previously – INC0010248. In the Task box enter
+Let’s continue to use the same incident record as we’ve used previously – INC0010248, “Order stuck in load status”. In the Task box enter
 
 {% code overflow="wrap" expandable="true" %}
 ```

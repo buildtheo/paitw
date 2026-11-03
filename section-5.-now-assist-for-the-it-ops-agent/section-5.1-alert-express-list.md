@@ -1,4 +1,4 @@
-# Section 4.1 Alert Express list
+# Section 4.1 Alert List
 
 {% hint style="info" %}
 **Persona for this section:** Sections 4.1-4.2 are written from the perspective of an IT Ops operator, not an administrator. Before starting, impersonate **Amelia Bryant** (the ITOM engineer persona seeded on this lab instance).
@@ -10,14 +10,16 @@
 
 You'll know it worked when your user icon in the top-right shows "AB" and a banner confirms you're impersonating Amelia Bryant.
 
-Stay impersonated as Amelia Bryant through the end of Section<br>
+Stay impersonated as Amelia Bryant through the end of Section 4.2.
 {% endhint %}
 
 {% hint style="info" %}
-Note: earlier versions of this lab referenced an "Express List" icon in the left navigation rail. That icon is still present on this platform version, live-confirmed under Amelia Bryant's ITOM role set — it's simply a separate view of the same alert data alongside the List module described below. Either one works for this section; we use the List module below since its navigation is more predictable across role sets.
+The alerts in this lab were captured ahead of time and pre-loaded onto your instance, so they are not recent, and some or all of them may already be **Closed** by the time you launch. This section shows you how to widen the list so you can still find them. Use the **List** module (not the Express List icon) for every step in 4.1 and 4.2.
 {% endhint %}
 
-The operator reviews alerts to identify issues, assess their impact, and determine how to resolve them. In this section, you will act as an operator.&#x20;
+The operator reviews alerts to identify issues, assess their impact, and determine how to resolve them. In this section, you will act as an operator.
+
+Typically, an operator would see alerts reported by monitoring tools in the list in near real time. For this lab, alerts have been captured and pre-loaded onto your instance. As a result, the alert times might not be recent enough to appear in the default window, so let's expand the window.&#x20;
 
 1. Close any popups that appear when you first login. The left navigation rail in Service Operations Workspace now shows, top to bottom: Home, AIOps configuration, Inbox, **List**, Insights, Applications, Devices, DEX Administration, Service Dashboard, and an overflow "**...**" menu.
 
@@ -25,16 +27,13 @@ The operator reviews alerts to identify issues, assess their impact, and determi
 
 2. Click the **List** icon. In its sidebar, find the **Alerts** category and select **All Alerts** (other entries here include Top Priority, Top Severity, Open Alerts, Acknowledged Alerts, and Assigned to you).
 3. Close the pop-up window that appears, if any.
-4.  Since these labs are sometimes launched a few days in advance, please select "Last week' in the top right-hand drop-dowtop right-hand drop-dow&#x20;
+4.  In the top right-hand drop-down, select the **widest date range available** (for example, **Last 90 days**). The default window, and "Last week", will probably show few or no alerts.
 
     <figure><img src="../.gitbook/assets/2026-08-10 14.04.36.png" alt=""><figcaption></figcaption></figure>
-5. Now you should see all the alerts from last week in the express list.
+5. Make sure **Closed** alerts are included. If the list is filtered to open alerts only, remove that filter (or add State **is** Closed). Closed alerts are expected here and are fine to analyze.
+6. Now you should see the pre-loaded alerts in the list. You may need to scroll or sort by **Created** to find them.
 
-<figure><img src="../.gitbook/assets/5.1-amelia-all-alerts.png" alt=""><figcaption><p>Confirmed live as Amelia Bryant.</p></figcaption></figure>
-
-Typically, an operator would see alerts reported by monitoring tools in the list in near real time. For this lab, alerts have been captured and pre-loaded onto your instance. As a result, the alert times might not be recent enough to appear in the default window, so let’s expand the window.
-
-4.
+<figure><img src="../.gitbook/assets/5.1-amelia-all-alerts.png" alt=""><figcaption>Confirmed live as Amelia Bryant. Your alert numbers and states may differ.</figcaption></figure>
 
 **But first, a quick sidebar…**
 
