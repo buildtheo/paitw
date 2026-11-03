@@ -88,8 +88,8 @@ f.	**Conditions**:&#x20;
 
 i.	Field: Active Operator: is True/False: true\
 ii.	Click ‘and’ to add an additional condition\
-iii.	Field: Number is \{{incident\_number\}}\
-\
+iii.	Field: Number is \{{incident\_number\}} (select the **incident_number** input with the input picker instead of typing it)
+
 ![](<../../.gitbook/assets/image (65).png>)
 
 {% hint style="info" %}
@@ -99,6 +99,10 @@ You can use the inputs picker to reference variables like the incident number.
 g.	**Field values**:
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><em><strong>Field</strong></em></td><td valign="top"><em><strong>Value</strong></em></td></tr><tr><td valign="top"><em>Assignment group</em></td><td valign="top"><em>{{assignment_group}}</em></td></tr></tbody></table>
+
+{% hint style="warning" %}
+Do not type {{assignment_group}} into the **Value** field; it will not resolve. Select the **assignment_group** input with the input picker (the icon at the right of the Value field).
+{% endhint %}
 
 h.	**Execution mode**: Autonomous\
 i.	**Display** output: No
