@@ -161,7 +161,7 @@ f.	**Display output**: No
 14\.	Click “**Save and continue**” to go to the next section to define security controls for this AI Agent:\
 a.	**Define user access**: Any authenticated user, Save and continue\
 b.	**User identity type**: AI user\
-c.	**AI user**: itsm.aia.worker1.
+c.	**AI user**: itsm.aia.worker
 
 <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
